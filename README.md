@@ -1,12 +1,18 @@
 # **RenameJS**
 
+Renamejs allows you to easily rename files and entire folders based upon extremely flexible criteria.
+
+### **Note**: You do need to have node.js installed already on you computer in order to run RenameJS file.
+
 # Running RenameJS
 
 `node rename <directory>`
 
 `node rename <directory> --prefix <prefix> --suffix <suffix> --rename-dir`
 
-# Hlep
+# Help
+
+`node rename --help`
 
 ```
 Usage: node rename.js [directory] [options] [flags]
@@ -21,3 +27,5 @@ Options:
 --suffix <suffix>       Add rename suffix
 --prefix <prefix>       Add rename prefix
 ```
+
+### **Thank you!💙**
