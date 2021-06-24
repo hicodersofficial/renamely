@@ -1,0 +1,8 @@
+{
+  "name": "renamejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hicodersofficial/renamejs.git",
+  "author": "Hi Coders <hicodersofficial@gmail.com>",
+  "license": "MIT"
+}
