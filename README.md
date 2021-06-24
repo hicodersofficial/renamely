@@ -2,7 +2,7 @@
 
 Renamejs allows you to easily rename files and entire folders based upon extremely flexible criteria.
 
-### **Note**: You do need to have node.js installed already on you computer in order to run RenameJS file.
+**Note**: You do need to have node.js installed already on you computer in order to run RenameJS file.
 
 # Running RenameJS
 
