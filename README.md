@@ -28,4 +28,8 @@ Options:
 --prefix <prefix>       Add rename prefix
 ```
 
+# Output
+
+![](https://github.com/hicodersofficial/images/blob/main/renamejs-shell-1.png?raw=true)
+
 ### **Thank you!💙**
