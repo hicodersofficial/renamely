@@ -31,6 +31,21 @@ Options:
   process.exit();
 }
 
+if (args.includes("-e") || args.includes("--example")) {
+  console.log(
+    `Here are few example how you can use RenameJS 
+with combination of flag and arguments.
+
+Examples: 
+node rename <folder_path> --prefix <prefix>
+node rename <folder_path> --suffix <suffix>
+node rename <folder_path> --prefix <prefix> --suffix <suffix>
+node rename <folder_path> --rename-dir
+    `
+  );
+  process.exit();
+}
+
 if (args.includes("-rd") || args.includes("--rename-dir")) {
   renameDir = true;
 }
@@ -58,7 +73,7 @@ if (args[2]) {
   console.log("Bye!");
   process.exit();
 } else {
-  console.log("Directory path is required");
+  console.error("Directory path is required");
 }
 
 function renameFile() {
