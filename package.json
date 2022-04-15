@@ -1,6 +1,6 @@
 {
-  "name": "renamejs",
-  "displayName": "RenameJs",
+  "name": "renamely",
+  "displayName": "Renamely",
   "version": "1.0.0",
   "bin": "index.js",
   "main": "index.js",
@@ -10,24 +10,26 @@
   "scripts": {
     "start": "node index.js"
   },
-  "homepage": "https://github.com/hicodersofficial/renamejs#readme",
-  "description": "Renamejs allows you to easily rename files and entire folders based upon extremely flexible criteria.",
+  "homepage": "https://github.com/hicodersofficial/renamely#readme",
+  "description": "Renamely allows you to easily rename files and entire folders based upon extremely flexible criteria.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hicodersofficial/renamejs"
+    "url": "https://github.com/hicodersofficial/renamely"
   },
   "author": {
     "name": "Hi Coders",
     "email": "hicodersofficial@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/hicodersofficial/renamejs/issues"
+    "url": "https://github.com/hicodersofficial/renamely/issues"
   },
   "license": "MIT",
   "keywords": [
     "rename",
+    "renamely",
     "renamejs",
-    "rename-js"
+    "folder",
+    "files"
   ],
   "dependencies": {
     "chalk": "^4.1.2"

@@ -1,10 +1,10 @@
-# **RenameJS**
+# **Renamely**
 
-Renamejs allows you to easily rename files and entire folders based upon extremely flexible criteria.
+Renamely allows you to easily rename files and entire folders based upon extremely flexible criteria.
 
-**Note**: You do need to have node.js installed already on you computer in order to run RenameJS file.
+**Note**: You do need to have node.js installed already on you computer in order to run Renamely file.
 
-# Running RenameJS
+# Running Renamely
 
 `node rename <directory>`
 
@@ -15,17 +15,17 @@ Renamejs allows you to easily rename files and entire folders based upon extreme
 `node rename --help`
 
 ```
-Help of RenameJs!
+Help of Renamely!
 
-Usage: renamejs [directory] [options] [flags]
+Usage: Renamely [directory] [options] [flags]
 
-Note: Renamejs by default only renames files, if you want to rename
+Note: Renamely by default only renames files, if you want to rename
 directories and files both then make sure to include "-rd" flag.
 
 Options:
 --version     -v        Shows version
 --help        -h        Shows helps
---example     -e        Shows example, how to use renamejs
+--example     -e        Shows example, how to use Renamely
 --rename-dir  -rd       Renames directories and files both
 --suffix -s <suffix>    Add rename suffix
 --prefix -p <prefix>    Add rename prefix
