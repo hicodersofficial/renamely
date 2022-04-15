@@ -15,14 +15,17 @@ Renamejs allows you to easily rename files and entire folders based upon extreme
 `node rename --help`
 
 ```
-Usage: node rename.js [directory] [options] [flags]
+Help of RenameJs!
 
-Note: Renamejs by default only renames files if you want to rename
+Usage: renamejs [directory] [options] [flags]
+
+Note: Renamejs by default only renames files, if you want to rename
 directories and files both then make sure to include "-rd" flag.
 
 Options:
+--version     -v        Shows version
 --help        -h        Shows helps
---example     -e        Shows example
+--example     -e        Shows example, how to use renamejs
 --rename-dir  -rd       Renames directories and files both
 --suffix -s <suffix>    Add rename suffix
 --prefix -p <prefix>    Add rename prefix
