@@ -24,8 +24,9 @@ Options:
 --help        -h        Shows helps
 --example     -e        Shows example
 --rename-dir  -rd       Renames directories and files both
---suffix <suffix>       Add rename suffix
---prefix <prefix>       Add rename prefix
+--suffix -s <suffix>    Add rename suffix
+--prefix -p <prefix>    Add rename prefix
+--recursive   -r        recursively rename
 ```
 
 # Output

@@ -1,8 +1,35 @@
 {
   "name": "renamejs",
+  "displayName": "RenameJs",
   "version": "1.0.0",
+  "bin": "index.js",
   "main": "index.js",
-  "repository": "git@github.com:hicodersofficial/renamejs.git",
-  "author": "Hi Coders <hicodersofficial@gmail.com>",
-  "license": "MIT"
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "homepage": "https://github.com/hicodersofficial/renamejs#readme",
+  "description": "Renamejs allows you to easily rename files and entire folders based upon extremely flexible criteria.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hicodersofficial/renamejs"
+  },
+  "author": {
+    "name": "Hi Coders",
+    "email": "hicodersofficial@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hicodersofficial/renamejs/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "rename",
+    "renamejs",
+    "rename-js"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
