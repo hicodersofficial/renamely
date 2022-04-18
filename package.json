@@ -1,7 +1,7 @@
 {
   "name": "renamely",
   "displayName": "Renamely",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "index.js",
   "main": "index.js",
   "directories": {

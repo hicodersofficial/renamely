@@ -2,21 +2,25 @@
 
 Renamely allows you to easily rename files and entire folders based upon extremely flexible criteria.
 
-**Note**: You do need to have node.js installed already on you computer in order to run Renamely file.
+# Installation
+
+```
+$ npm install -g renamely
+```
+
+**Note**: Once you renamed your file or dir, you cannot undo it.
 
 # Running Renamely
 
-`node rename <directory>`
+`renamely <directory>`
 
-`node rename <directory> --prefix <prefix> --suffix <suffix> --rename-dir`
+`renamely <directory> --prefix <prefix> --suffix <suffix> --rename-dir`
 
 # Help
 
-`node rename --help`
+`renamely --help`
 
 ```
-Help of Renamely!
-
 Usage: Renamely [directory] [options] [flags]
 
 Note: Renamely by default only renames files, if you want to rename
